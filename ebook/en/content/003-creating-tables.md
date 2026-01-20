@@ -20,6 +20,8 @@ In our case it would be like this:
 
 ## Data types
 
+TODO - Expan, include details and examples, contrast types in different implementations
+
 The most common data types that you would come across are:
 
 * `CHAR`(size): Fixed-length character string with a maximum length of 255 bytes.
