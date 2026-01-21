@@ -2,21 +2,31 @@
 
 * **This version was published on October 13,2021**
 
-This open-source introduction to SQL guide will help you learn the basics of SQL and start using relational databases for your SysOps, DevOps, and Dev projects. Whether you are a DevOps/SysOps engineer, developer, or just a Linux enthusiast, you will most likely have to use SQL at some point in your career.
+This open-source introduction to Databases and SQL guide will help you learn the basics of SQL and start using relational databases for your software projects. Whether you are a software engineer, developer, IT admin or just a Linux enthusiast, you will most likely have to use SQL at some point in your career.
 
-The guide is suitable for anyone working as a developer, system administrator, or DevOps engineer who wants to learn the basics of SQL.
+The guide is suitable for information technology students, anyone working as a developer, system administrator, or DevOps engineer who wants to learn the basics of SQL.
 
-## About the author
+## About the authors
 
-My name is Bobby Iliev, and I have been working as a Linux DevOps Engineer since 2014. I am an avid Linux lover and supporter of the open-source movement philosophy. I am always doing that which I cannot do in order that I may learn how to do it, and I believe in sharing knowledge.
+From the original author:
 
-I think it's essential always to keep professional and surround yourself with good people, work hard, and be nice to everyone. You have to perform at a consistently higher level than others. That's the mark of a true professional.
+> My name is Bobby Iliev, and I have been working as a Linux DevOps Engineer since 2014. I am an avid Linux lover and supporter of the open-source movement philosophy. I am always doing that which I cannot do in order that I may learn how to do it, and I believe in sharing knowledge.
 
-For more information, please visit my blog at [https://bobbyiliev.com](https://bobbyiliev.com), follow me on Twitter [@bobbyiliev_](https://twitter.com/bobbyiliev_) and [YouTube](https://www.youtube.com/channel/UCQWmdHTeAO0UvaNqve9udRw).
+> I think it's essential always to keep professional and surround yourself with good people, work hard, and be nice to everyone. You have to perform at a consistently higher level than others. That's the mark of a true professional.
+
+> For more information, please visit my blog at [https://bobbyiliev.com](https://bobbyiliev.com), follow me on Twitter [@bobbyiliev_](https://twitter.com/bobbyiliev_) and [YouTube](https://www.youtube.com/channel/UCQWmdHTeAO0UvaNqve9udRw).
+
+From Jeremy Doolin
+
+> My name is Jeremy Doolin, and I've been teaching Computer and Information Technology courses since 2012. Prior to that I worked in various system admin and software development roles, with a special focus on Unix systems and development. Like Bobby, the original author of this work, I am a supporter of open-source works. I believe it to be a shining light in a technology world that is otherwise becoming enslaved to locked-down, closed ecosystems built by large tech companies whose primary goal is profit.
+
+> I am also a believer in the hacker ethic espoused by many computing pioneers in the 50s, 60s, 70s and even today in the open source movement. Strive for excellence, learn every detail you can about systems and how to achieve interesting things. Share information, and embrace humility, so that you may recognize when someone else has found a better way to do something. The computing world is much better when it is motivated by curiosity and the desire to do fun and interesting things. 
+
+> I also think Bobby makes a great point about being a true professional. Always strive to improve yourself and be ahead of the average. 
 
 ## Sponsors
 
-This book is made possible thanks to these fantastic companies!
+This book (the original work) is made possible thanks to these fantastic companies!
 
 ### Materialize
 
