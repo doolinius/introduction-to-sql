@@ -9,9 +9,9 @@ As an example, we are going to create a `users` table with the following columns
 * `name` - here, we will store the full name of users.
 * `status` - here, we will store the status of a user, which would indicate if a user is active or not.
 
-You need to specify the data type of each column.
+Similarly to strongly typed programming languages such as C/C++, Go or Java, you also need to specify the data type of each column.
 
-In our case it would be like this:
+In our example, 
 
 * `id` - Integer
 * `username` - Varchar
@@ -110,7 +110,7 @@ CREATE TABLE users
 
 > Note: You need to select a database first with the `USE` command as mentioned above. Otherwise you will get the following error: `ERROR 1046 (3D000): No database selected.
 
-To list the available tables, you could run the following command:
+To list the available tables in MySQL, you could run the following command:
 
 ```sql
 SHOW TABLES;
@@ -148,7 +148,7 @@ Records: 0  Duplicates: 0  Warnings: 0
 
 >Note: When creating a table in this way, the new table will be populated with the records from the existing table (based on the SELECT Statement)
 
-## Rename tables
+## Renaming Tables
 
 You can rename a table by using `ALTER TABLE` statement.
 
@@ -157,7 +157,7 @@ Let's change name of user2 table to user3
 ALTER TABLE user2 RENAME TO user3 
 ```
 
-## Dropping tables
+## Dropping Tables
 
 You can drop or delete tables by using the `DROP TABLE` statement.
 
@@ -179,7 +179,11 @@ And now, if you were to run the `SHOW TABLES;` query again, you would get the fo
 Empty set (0.00 sec)
 ```
 
-## Allowing NULL values
+## Database Column Constraints
+
+
+
+### Allowing NULL values
 
 By default, each column in your table can hold NULL values. In case that you don't wanted to allow NULL values for some of the columns in a specific table, you need to specify this during the table creation or later on change the table to allow that.
 
@@ -198,7 +202,11 @@ CREATE TABLE users
 
 That way, when you try to add a new user, MySQL will let you know that the `username` column is required.
 
-## Specifying a primary key
+### Unique Values
+
+### Default Values
+
+### Specifying a Primary Key
 
 The primary key column, which in our case is the `id` column, is a unique identifier for our users.
 
@@ -245,7 +253,7 @@ CREATE INDEX users_multi_idx ON users(birthday, active);
 
 Placing `birthday` first in the index ensures a quicker reduction in potential matches, optimizing the server's data manipulation process.
 
-## Updating tables
+## Modifying Tables
 
 In the above example, we created a new table and then dropped it as it was empty. However, in a real-life scenario, this would really be the case.
 
