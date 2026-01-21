@@ -20,9 +20,13 @@ In our case it would be like this:
 
 ## Data types
 
-TODO - Expan, include details and examples, contrast types in different implementations
+In many programming languages, such as C, C++, Java and Go, you are required to specify data types for variables. Once you declare a variable to be of a certain data type, the variable may not be used to store any other type of data. For example, a variable declared to hold an 'int' in Java may only store 32-bit integer values. 
 
-The most common data types that you would come across are:
+Most DBMS operate on the same principle. Fields/columns must have a datatype specified when the table is created, and it may not hold any other type. The data types in databases are similar to but not exactly the same as those found in typical programming languages. Furthermore, the available data types may differ from one DBMS to another. 
+
+### MySQL Data Types
+
+The most common data types that you would come across in MySQL are:
 
 * `CHAR`(size): Fixed-length character string with a maximum length of 255 bytes.
 * `VARCHAR`(size):  Variable-length character string. Max size is specified in parenthesis.
@@ -30,6 +34,18 @@ The most common data types that you would come across are:
 * `INTEGER`(size) or `INT`(size): A medium integer.
 * `BOOLEAN` or `BOOL`: Holds a true or false value.
 * `DATE`: Holds a date.
+
+Additional types in MySQL:
+
+* `TINYINT`: A small, 8-bit integer that may be declared signed or unsigned. -128 to 127 signed, 0-255 unsigned.
+* `SMALLINT`: 16-bit integer, can also be signed or unsigned.
+* `MEDIUMINT`: 24-bit integer.
+* `BIGINT`: 64-bit integer.
+* `TINYTEXT`: A character string up to 255 characters.
+* `LONGTEXT`: A long character string up to 4 billion characters.
+* `TIME`: in hh:mm:ss (hour, minute, second) format
+* `DATETIME`: combination of DATE and TIME in YYYY-MM-DD hh:mm:ss format
+* 
 
 Let's have the following users table as an example:
 
